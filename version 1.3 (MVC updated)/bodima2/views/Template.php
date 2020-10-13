@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-      <link rel="stylesheet" type="text/css" href="../Styles/StyleSheet.css" />
+      <link rel="stylesheet" type="text/css" href="../resource/Styles/StyleSheet.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -26,7 +26,7 @@ and open the template in the editor.
 
                 <div class="user_block">
                    <div class="profile">
-                     <img src="../Images/profile_img2.jpg" alt="Profile Image" class="prof_img"><br/>
+                     <img src="../resource/Images/profile_img2.jpg" alt="Profile Image" class="prof_img"><br/>
                      <div class="profile_dropdown">
                         <button class="dropbtn">profile</button>
                         <div class="profile_dropdown-content">
@@ -58,7 +58,7 @@ and open the template in the editor.
                     <li><a href="Boardings.php">Boarding</a></li>
                     <li><a href="AboutUs.php">About Us</a></li>
                     <!-- comment after testing -->
-                    <li><a href="BoardingPage.php">boarding page</a></li>
+                    
                     <!-- ********************* -->
                     <div class="search-container">
                         <form action="/action_page.php">

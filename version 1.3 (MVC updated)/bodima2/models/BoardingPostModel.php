@@ -58,7 +58,7 @@ class BoardingPostModel {
             $review      =$row[16];
 
             //Create coffee objects and store them in an array.
-            $boarding_post = new Boarding_post_Entity(-1, $category, $girlsBoys, $person_count, $cost_per_person, $rating, $image, $house_num,$lane,$city,$postal_code,$district,$description,$location,$lifespan,$post_amount,$review);
+            $boarding_post = new Boarding_post_Entity($B_post_id, $category, $girlsBoys, $person_count, $cost_per_person, $rating, $image, $house_num,$lane,$city,$postal_code,$district,$description,$location,$lifespan,$post_amount,$review);
             array_push($boardingPostArray, $boarding_post);
         }
         //Close connection and return result
@@ -100,7 +100,7 @@ class BoardingPostModel {
             $review      =$row[16];
 
             //Create coffee objects and store them in an array.
-            $boarding_post = new Boarding_post_Entity(-1, $category, $girlsBoys, $person_count, $cost_per_person, $rating, $image, $house_num,$lane,$city,$postal_code,$district,$description,$location,$lifespan,$post_amount,$review);
+            $boarding_post = new Boarding_post_Entity($B_post_id, $category, $girlsBoys, $person_count, $cost_per_person, $rating, $image, $house_num,$lane,$city,$postal_code,$district,$description,$location,$lifespan,$post_amount,$review);
             array_push($boardingPostArray, $boarding_post);
         }
         //Close connection and return result

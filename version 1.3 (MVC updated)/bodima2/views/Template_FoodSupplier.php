@@ -3,7 +3,7 @@
 <html>
     <head>
     
-      <link rel="stylesheet" type="text/css" href="Styles/StyleSheet_profile_template.css" />
+      <link rel="stylesheet" type="text/css" href="../resource/Styles/StyleSheet_profile_template.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>

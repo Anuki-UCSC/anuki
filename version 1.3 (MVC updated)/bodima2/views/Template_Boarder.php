@@ -3,7 +3,7 @@
 <html>
     <head>
     
-      <link rel="stylesheet" type="text/css" href="Styles/StyleSheet_profile_template.css" />
+      <link rel="stylesheet" type="text/css" href="resource/Styles/StyleSheet_profile_template.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="user_block">
-                     <img src="Images/profile_img2.jpg" alt="Profile Image" class="prof_img"><br/>    
+                     <img src="resource/Images/profile_img2.jpg" alt="Profile Image" class="prof_img"><br/>    
                 </div>
             </div>
             
@@ -28,7 +28,7 @@
 <div class="container">
   <div class="sidebar">
       <div class="profile_info">
-        <img src="Images/profile_img2.jpg" class="profile_image" alt="">
+        <img src="resource/Images/profile_img2.jpg" class="profile_image" alt="">
         <h4>Jessica</h4>
       </div>
       <a href="views/Boardings.php"><i class="fas fa-home"></i><span>Home</span></a>
